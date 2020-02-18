@@ -1,4 +1,4 @@
-
+<a href="index.php?action=add_form" class ="btn btn-info">Add new</a>
 <table class ="table table-striped table-hover mt-2">
     <thead class ="table-dark">
         <tr>

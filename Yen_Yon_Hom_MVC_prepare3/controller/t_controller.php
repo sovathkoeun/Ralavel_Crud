@@ -1,3 +1,5 @@
+
+
 <?php 
     $data= array();
 
@@ -18,7 +20,20 @@
         $data['page'] = "test/view";
     }
 
+    function add_form(&$data){
+        $data['page'] = "test/add";
+    }
+    function add_my_family(&$data){
+        $result = m_add($_POST); 
+        if($result){
+            $action = "view";
+        }else{
+            $action = "add_form";
+        }
+        header("Location: index.php?action=$action");
+    }
 ?> 
+
 
 
  

@@ -20,7 +20,7 @@
                 <h2 class="text-center text-success">My family's member:</h2>
                 <hr>
                  <?php
-                    include "views/".$data['page'].".php";
+                    include "views/".$data['page'].".php";                                                         
                 ?>
             </div>
         </div>
